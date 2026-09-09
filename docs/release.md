@@ -11,6 +11,8 @@ account to review priorities, capture tasks, and work through your daily debrief
 
 **Homepage:** https://mindyournow.com
 
+**Source repository:** https://github.com/mindyournow/grok-bot-plugin
+
 **Support:** support@mindyournow.com
 
 **Authentication:** Browser-based OAuth with each user's MYN account.
@@ -21,9 +23,10 @@ account to review priorities, capture tasks, and work through your daily debrief
 
 ## Submission
 
-1. Publish this standalone directory to a public repository owned by Mind Your
-   Now. Include the manifest, MCP configuration, skill, logo, README, and license.
-2. Submit its repository URL through
+1. Use the public source repository at
+   https://github.com/mindyournow/grok-bot-plugin. It includes the manifest,
+   MCP configuration, skill, logo, README, and license.
+2. Submit that repository URL through
    [Cursor's plugin publishing form](https://cursor.com/marketplace/publish),
    as directed by [Cursor's plugin reference](https://cursor.com/docs/reference/plugins).
    State explicitly that the requested destination is **Grok Bot's Plugins catalog**.
@@ -31,9 +34,8 @@ account to review priorities, capture tasks, and work through your daily debrief
    obtain the supported preview/install route for this candidate. If it only
    covers the IDE, request the Grok Bot catalog onboarding route before release.
 4. Complete the authenticated checks below using the actual Grok Bot client.
-5. After acceptance, record the public repository URL, catalog listing URL,
-   tested Grok Bot version, and release commit. Add the real repository URL to
-   the plugin manifest and replace the candidate status in the README.
+5. After acceptance, record the catalog listing URL, tested Grok Bot version,
+   and release commit. Replace the candidate status in the README.
 
 Do not submit this package to the Grok Build marketplace as a substitute. Its
 `.grok-plugin` index belongs to a different product. Likewise, Cursor IDE local

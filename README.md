@@ -3,9 +3,10 @@
 Connect your Mind Your Now account to manage tasks, review priorities, and work
 through your daily debrief from Grok Bot.
 
-**Status:** Version 0.1.0 is a local submission candidate. It is not published
-or listed in Grok Bot. Package validation and public OAuth discovery checks
-have passed; installation and authenticated use inside Grok Bot remain untested.
+**Status:** Version 0.1.0 is a submission candidate with
+[public source on GitHub](https://github.com/mindyournow/grok-bot-plugin).
+It is not listed in Grok Bot. Package validation and public OAuth discovery
+checks have passed; installation and authenticated use inside Grok Bot remain untested.
 
 ## What it includes
 

@@ -40,6 +40,7 @@ during the authenticated release check. No edge rules were changed.
 ## Release boundary
 
 The package is prepared in Cursor's documented plugin format for submission
-targeting Grok Bot. It is not published, accepted into a catalog, or certified
-as compatible with Grok Bot. Follow [release instructions](release.md) before
-claiming user installation is available.
+targeting Grok Bot. Its source is published at
+https://github.com/mindyournow/grok-bot-plugin. It has not been submitted to or
+accepted into a catalog, or certified as compatible with Grok Bot. Follow
+[release instructions](release.md) before claiming user installation is available.

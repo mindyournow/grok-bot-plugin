@@ -8,6 +8,7 @@
     "email": "support@mindyournow.com"
   },
   "homepage": "https://mindyournow.com",
+  "repository": "https://github.com/mindyournow/grok-bot-plugin",
   "license": "MIT",
   "keywords": ["productivity", "tasks", "planning", "daily-debrief", "mind-your-now"],
   "logo": "assets/logo.png",
