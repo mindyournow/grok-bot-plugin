@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "mind-your-now": {
+      "url": "https://api.mindyournow.com/mcp"
+    }
+  }
+}

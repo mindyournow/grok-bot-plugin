@@ -1,0 +1,16 @@
+{
+  "name": "mind-your-now",
+  "displayName": "Mind Your Now",
+  "version": "0.1.0",
+  "description": "Manage tasks and daily planning in Mind Your Now. Connect your account to review priorities, capture tasks, and work through your daily debrief.",
+  "author": {
+    "name": "Mind Your Now",
+    "email": "support@mindyournow.com"
+  },
+  "homepage": "https://mindyournow.com",
+  "license": "MIT",
+  "keywords": ["productivity", "tasks", "planning", "daily-debrief", "mind-your-now"],
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
