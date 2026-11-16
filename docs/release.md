@@ -19,20 +19,23 @@ account to review priorities, capture tasks, and work through your daily debrief
 
 **MCP endpoint:** https://api.mindyournow.com/mcp
 
-**Logo:** `assets/logo.png`
+**Logo:** `assets/logo-square.png` (512x512, white plate)
 
 ## Submission
 
 1. Use the public source repository at
    https://github.com/mindyournow/grok-bot-plugin. It includes the manifest,
    MCP configuration, skill, logo, README, and license.
-2. Submit that repository URL through
-   [Cursor's plugin publishing form](https://cursor.com/marketplace/publish),
-   as directed by [Cursor's plugin reference](https://cursor.com/docs/reference/plugins).
-   State explicitly that the requested destination is **Grok Bot's Plugins catalog**.
-3. Confirm with the catalog reviewer that the submission covers Grok Bot, and
-   obtain the supported preview/install route for this candidate. If it only
-   covers the IDE, request the Grok Bot catalog onboarding route before release.
+2. Submit that repository URL through xAI's
+   [Submit a Plugin form](https://x.ai/bot/marketplace/submit-a-plugin) and
+   choose **Grok Bot** as the listing destination. The form takes the
+   repository URL, a 1:1 logo URL (`assets/logo-square.png`), a description,
+   and testing instructions, and asks you to confirm the plugin was tested
+   locally and in-app.
+3. Before you submit, add `https://api.mindyournow.com/mcp` in Grok Bot as a
+   custom connector (**Connect apps → Add a custom connector → Remote HTTPS**)
+   and run the in-app checks below, so the form's tested-in-app confirmation
+   is true.
 4. Complete the authenticated checks below using the actual Grok Bot client.
 5. After acceptance, record the catalog listing URL, tested Grok Bot version,
    and release commit. Replace the candidate status in the README.
